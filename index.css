@@ -1,0 +1,267 @@
+* {
+    background-color: #292828;
+    color: #f0f0f0;
+    font-family: Georgia;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a1a1a;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-button {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.container, .container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.txtcen {
+    text-align: center;
+    font-weight: 300;
+}
+
+.txtleft {
+    text-align: left;
+    width: 100%;
+    padding-left: 20px;
+    font-weight: 300;
+}
+
+h1, h2, p {
+    font-weight: 300;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    max-width: 800px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.image-text-container img {
+    width: 30%;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+    font-weight: 300;
+}
+
+.image-text-container.hidden, .image-text-container.txtder.hidden, .image-text-container.txtiz.hidden {
+    opacity: 0;
+}
+
+.image-text-container:not(.hidden) {
+    opacity: 1;
+    transform: translateX(0);
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.image-text-container:hover {
+    transform: scale(1.05);
+    background-color: #292828;
+    border-color: #000000;
+}
+
+.image-text-container img.change {
+    transform: rotate(180deg);
+}
+
+.skills-container, .portfolio-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-image {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-links a {
+    color: #f0f0f0;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #f0f0f0;
+    transform: scale(1.1);
+}
+
+.input-icon {
+    position: relative;
+    width: 100%;
+}
+
+.input-icon i {
+    position: absolute;
+    left: 10px;
+    top: 35%;
+    transform: translateY(-50%);
+    color: #bbb;
+}
+
+.input-icon .form-control {
+    padding-left: 35px;
+}
+
+.form-control {
+    background-color: #292828;
+    border-radius: 8px;
+    color: #bbb;
+    border: 1px solid #004085;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.form-control::placeholder {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #004085;
+    border-color: #004085;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.form-control {
+    height: auto;
+}
+
+.portfolio-images img {
+    width: 60%;
+    height: auto;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.portfolio-images img:last-child {
+    object-fit: cover;
+}
+
+.portfolio-images .image-label {
+    font-weight: bold;
+}
+
+.gif-image {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.gif-image.small {
+    width: 300px;
+    height: auto;
+}
+
+.portfolio-item img {
+    margin: 0;
+}
+.habilidadesim{
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.gifhab{
+    width: 10%;
+}
+.portfolio-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
+
+.portfolio-item {
+    border: 2px solid #292828;
+    border-radius: 8px; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.portfolio-description {
+    margin-top: 10px; 
+}
