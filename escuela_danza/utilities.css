@@ -1,0 +1,719 @@
+.container {
+    font-family: "Lato-Regular";
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../escuela_danza/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Dolcev";
+    src: url(../escuela_danza/fonts/DolceVita-Light.ttf);
+}
+
+@font-face {
+    font-family: "Lato-light";
+    src: url(../escuela_danza/fonts/Latolight.ttf);
+}
+
+@font-face {
+    font-family: "Dolce";
+    src: url(../escuela_danza/fonts/DolceVita.ttf);
+}
+
+.Dolce {
+    font-family: "Dolce";
+}
+
+.Lato-light {
+    font-family: "Lato-light";
+}
+
+.Dolcev {
+    font-family: "Dolcev";
+}
+
+.Lato-regular {
+    font-family: "Lato-Regular";
+}
+
+.pd-0 {
+    padding: 0;
+}
+
+.pt-5 {
+    padding-top: 0.5%;
+}
+
+.pb-5 {
+    padding-bottom: 0.5%;
+}
+
+.mg-0 {
+    margin: 0;
+}
+
+.mg-10 {
+    margin: 30px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.lh {
+    line-height: 1.5;
+}
+
+.lh2 {
+    line-height: 2;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray {
+    color: rgb(83, 88, 95);
+}
+
+.text-blue {
+    color: #282f3e;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.a-none-decoration {
+    text-decoration: none;
+}
+
+.bg-gray {
+    background-color: rgb(185, 185, 185);
+}
+
+.bg-gray2 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-botin {
+    background-color: rgb(11, 1, 25);
+}
+
+.bg-botin2 {
+    background-color: rgb(45, 17, 85);
+}
+
+.bg-img-block {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-big {
+    font-size: 30px;
+}
+
+.text-botones {
+    font-size: 16px;
+}
+
+.bordebot {
+    border-color: transparent;
+}
+
+.image-container img {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    display: block;
+}
+
+.cropped-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 75%);
+}
+
+.text-gigante {
+    font-size: 70px;
+}
+
+.text-med {
+    font-size: 35px;
+}
+
+.text-peq {
+    font-size: 18px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ubicardentro {
+    position: absolute;
+    top: 190px;
+    left: 130px;
+}
+
+.ubicartextopeq {
+    position: absolute;
+    top: 340px;
+    left: 130px;
+}
+
+.ubicarbotin {
+    position: absolute;
+    top: 440px;
+    left: 180px;
+}
+
+.letradelgada {
+    font-weight: lighter;
+}
+
+.masarriba {
+    margin-top: -100px;
+}
+
+.masarr {
+    margin-top: -500px;
+}
+
+.mas-grande {
+    padding: 15px 25px;
+}
+
+.imagen-c {
+    width: 100%;
+}
+
+.imagen-c img {
+    width: 50%;
+    float: left;
+}
+
+.imagen-recortada1 {
+    clip-path: polygon(0 0, 100% 0, 100% 72%, 0 72%);
+}
+
+.imagen-recortada2 {
+    clip-path: polygon(0 0, 100% 0, 100% 61.4%, 0 61.4%);
+}
+
+.moverni {
+    position: absolute;
+    top: 1350px;
+    left: 440px;
+    padding: 35px 250px;
+}
+
+.masabajo {
+    margin-top: 60px;
+}
+
+.rectangulo {
+    width: 1520px;
+    height: 480px;
+    background-color: rgb(47, 21, 84);
+    border: 2px solid rgb(47, 21, 84);
+    border-radius: 10px;
+}
+
+.acomodart4 {
+    position: absolute;
+    top: 1780px;
+    left: -80px;
+    padding: 35px 250px;
+}
+
+.acomodart5 {
+    position: absolute;
+    top: 1900px;
+    left: -80px;
+    padding: 35px 250px;
+    font-size: 20px;
+}
+
+.acomodart6 {
+    position: absolute;
+    top: 1930px;
+    left: -80px;
+    padding: 35px 250px;
+}
+
+.acomodarmap {
+    position: absolute;
+    top: 1800px;
+    left: 500px;
+    padding: 35px 250px;
+}
+
+.masarriba2 {
+    margin-top: -88px;
+}
+
+.ubicar3 {
+    position: absolute;
+    top: 2300px;
+    left: -80px;
+    padding: 35px 250px;
+}
+
+.acomodarcont {
+    position: absolute;
+    top: 2200px;
+    left: -80px;
+    padding: 35px 250px;
+}
+
+.ancho {
+    width: 180%;
+}
+
+.masabajoc {
+    margin-top: 30px;
+}
+
+.acomodarzap {
+    position: absolute;
+    top: 2100px;
+    left: 500px;
+    padding: 35px 250px;
+}
+
+.input-icon {
+    color: #282f3e;
+}
+
+.rectangulo-final {
+    position: absolute;
+    top: 2750px;
+    left: -200px;
+    padding: 35px 250px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(47, 21, 84);
+}
+
+.acomodartextf {
+    position: absolute;
+    top: 2750px;
+    left: -200px;
+    padding: 35px 250px;
+}
+
+.ubicarbotenv {
+    position: absolute;
+    top: 380px;
+    left: 220px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.rectangulo-transparente {
+    width: 540px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    position: absolute;
+    top: 220px;
+    left: 480px;
+    padding: 10px 20px;
+}
+
+.ubsobrn {
+    position: absolute;
+    top: 205px;
+    left: 600px;
+    padding: 10px 20px;
+}
+
+.ubtp {
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    padding: 10px 20px;
+}
+
+.ubp1 {
+    position: absolute;
+    top: 640px;
+    left: 300px;
+    padding: 10px 20px;
+}
+
+.ubp2 {
+    position: absolute;
+    top: 640px;
+    left: 700px;
+    padding: 10px 20px;
+}
+
+.ubp3 {
+    position: absolute;
+    top: 640px;
+    left: 1100px;
+    padding: 10px 20px;
+}
+
+.ubic12 {
+    position: absolute;
+    top: 720px;
+    left: 1000px;
+    padding: 10px 20px;
+}
+
+.ubic13 {
+    position: absolute;
+    top: 730px;
+    left: 200px;
+    padding: 10px 20px;
+}
+
+.rec34 {
+    clip-path: polygon(0 0, 100% 0, 100% 54%, 0 54%);
+}
+
+.rec35 {
+    clip-path: polygon(0 0, 100% 0, 100% 56%, 0 56%);
+}
+
+.rec36 {
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
+}
+
+.rec37 {
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 65%);
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cropped-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.masabajo2 {
+    margin-top: 140px;
+}
+
+.masabajo3 {
+    margin-top: 120px;
+}
+
+.masabajo34 {
+    margin-top: 30px;
+}
+
+.acomrod {
+    position: absolute;
+    top: 1400px;
+    left: 30px;
+    padding: 10px 20px;
+}
+
+.acomad {
+    position: absolute;
+    top: 1400px;
+    left: 600px;
+    padding: 10px 20px;
+}
+
+.acomia {
+    position: absolute;
+    top: 1400px;
+    left: 820px;
+    padding: 10px 20px;
+}
+
+.acomk {
+    position: absolute;
+    top: 1400px;
+    left: 1150px;
+    padding: 10px 20px;
+}
+
+.acomem {
+    position: absolute;
+    top: 1950px;
+    left: 0px;
+    padding: 10px 20px;
+}
+
+.acomsa {
+    position: absolute;
+    top: 1950px;
+    left: 500px;
+    padding: 10px 20px;
+}
+
+.acomki {
+    position: absolute;
+    top: 1950px;
+    left: 830px;
+    padding: 10px 20px;
+}
+
+.acomma {
+    position: absolute;
+    top: 1950px;
+    left: 1150px;
+    padding: 10px 20px;
+}
+
+.textoalc {
+    position: absolute;
+    top: 2000px;
+    left: 500px;
+    padding: 10px 20px;
+}
+
+.image-grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cropped-image2 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.acombk {
+    margin-top: 125px;
+}
+
+.rec38 {
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0 83%);
+}
+
+.acomlj {
+    margin-top: 125px;
+}
+
+.rec39 {
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0 83%);
+}
+
+.acomy {
+    margin-top: 0px;
+}
+
+.rectangulo-transparente2 {
+    width: 250px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    position: absolute;
+    top: 520px;
+    left: 620px;
+    padding: 10px 20px;
+}
+
+.rectangulo-transparente3 {
+    width: 250px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    position: absolute;
+    top: 520px;
+    left: 1150px;
+    padding: 10px 20px;
+}
+
+.rectangulo-transparente4 {
+    width: 250px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    position: absolute;
+    top: 1320px;
+    left: 100px;
+    padding: 10px 20px;
+}
+
+.rectangulo-transparente5 {
+    width: 250px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    position: absolute;
+    top: 1320px;
+    left: 1150px;
+    padding: 10px 20px;
+}
+
+.rectangulo-transparente6 {
+    width: 250px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    position: absolute;
+    top: 1320px;
+    left: 600px;
+    padding: 10px 20px;
+}
+
+.rectangulo-transparente7 {
+    width: 250px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    position: absolute;
+    top: 520px;
+    left: 80px;
+    padding: 10px 20px;
+}
+
+.acombal {
+    position: absolute;
+    top: 530px;
+    left: 190px;
+    padding: 10px 20px;
+}
+
+.acomdm {
+    position: absolute;
+    top: 530px;
+    left: 680px;
+    padding: 10px 20px;
+}
+
+.acomjl {
+    position: absolute;
+    top: 530px;
+    left: 1220px;
+    padding: 10px 20px;
+}
+
+.acomad {
+    position: absolute;
+    top: 1350px;
+    left: 150px;
+    padding: 10px 20px;
+}
+
+.acomkl {
+    position: absolute;
+    top: 1350px;
+    left: 680px;
+    padding: 10px 20px;
+}
+
+.acomyd {
+    position: absolute;
+    top: 1350px;
+    left: 1180px;
+    padding: 10px 20px;
+}
+
+.moverimg1 {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    padding: 10px 20px;
+}
+
+.moverimg2 {
+    position: absolute;
+    top: 650px;
+    left: 100px;
+    padding: 10px 20px;
+}
+
+.moverimg3 {
+    position: absolute;
+    top: 950px;
+    left: 100px;
+    padding: 10px 20px;
+}
+
+.rectangulo-celeste {
+    width: 950px;
+    height: 270px;
+    background-color: rgba(157, 153, 176, 0.2);
+    border: 1px solid rgba(157, 153, 176, 0.2);
+    position: absolute;
+    top: 310px;
+    left: 427px;
+    padding: 10px 20px;
+}
+
+.rectangulo-celeste2 {
+    width: 950px;
+    height: 180px;
+    background-color: rgba(157, 153, 176, 0.2);
+    border: 1px solid rgba(157, 153, 176, 0.2);
+    position: absolute;
+    top: 660px;
+    left: 427px;
+    padding: 10px 20px;
+}
+
+.rectangulo-celeste3 {
+    width: 950px;
+    height: 180px;
+    background-color: rgba(157, 153, 176, 0.2);
+    border: 1px solid rgba(157, 153, 176, 0.2);
+    position: absolute;
+    top: 960px;
+    left: 427px;
+    padding: 10px 20px;
+}
+
+.acomtxt1 {
+    position: absolute;
+    top: 300px;
+    left: 420px;
+    padding: 10px 20px;
+}
+
+.acomtxt2 {
+    position: absolute;
+    top: 680px;
+    left: 420px;
+    padding: 10px 20px;
+}
+
+.acomtxt3 {
+    position: absolute;
+    top: 980px;
+    left: 420px;
+    padding: 10px 20px;
+}
+
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="favicon.png" type="image/png">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="utilities.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+    .image-container img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .image-container img:hover {
+        transform: scale(1.1);
+    }
+</style>
+</head>
+<body onclick="limpiarPagina()"> 
+<div class="container">
+    <p class="text-center text-blue text-big text-custom-font">ESCUELA DE DANZA</p>
+    <div class="button-container text-center">
+        <a href="nosotros.html" class="bg-white text-gray text-botones text-center mg-10 bordebot a-none-decoration">Nosotros</a>
+        <a href="clases.html" class="bg-white text-gray text-botones text-center mg-10 bordebot a-none-decoration">Clases</a>
+        <a href="blog.html" class="bg-white text-gray text-botones text-center mg-10 bordebot a-none-decoration">Blog</a>
+        <a href="contacto.html" class="bg-white text-gray text-botones text-center mg-10 bordebot a-none-decoration">Contáctanos</a>
+    </div>
+    <p class="text-center text-blue text-big text-custom-font">OFERTA DE CLASES</p>
+    <div class="image-grid2">
+        <div class="image-container text-center bg-img-block">
+            <img src="BALLET.jpg" alt="Imagen 1" class="cropped-image2">
+        </div>
+        <div class="image-container text-center bg-img-block acombk rec38">
+            <img src="breakdance.jpg" alt="Imagen 2" class="cropped-image2">
+        </div>
+        <div class="image-container text-center bg-img-block acomlj rec39">
+            <img src="lirical-jazz.jpg" alt="Imagen 3" class="cropped-image2">
+        </div>
+        <div class="image-container text-center bg-img-block">
+            <img src="arabe.jpg" alt="Imagen 4" class="cropped-image2">
+        </div>
+        <div class="image-container text-center bg-img-block">
+            <img src="little.jpg" alt="Imagen 5" class="cropped-image2">
+        </div>
+        <div class="image-container text-center bg-img-block">
+            <img src="yoga.jpg" alt="Imagen 6" class="cropped-image2">
+        </div>
+        <div class="rectangulo-transparente2"></div>
+        <div class="rectangulo-transparente3"></div>
+        <div class="rectangulo-transparente4"></div>
+        <div class="rectangulo-transparente5"></div>
+        <div class="rectangulo-transparente6"></div>
+        <div class="rectangulo-transparente7"></div>
+        <p class="text-peq text-white text-center acombal">BALLET</p>
+        <p class="text-peq text-white text-center acomdm">Dance modern</p>
+        <p class="text-peq text-white text-center acomjl">JAZZ LIRIC</p>
+        <p class="text-peq text-white text-center acomad">ARABIC DANCE</p>
+        <p class="text-peq text-white text-center acomkl">KIDS LESSONS</p>
+        <p class="text-peq text-white text-center acomyd">YOGA DANCE</p>
+    </div>
+    <p class="text-blue text-med acomodarcont">Contáctanos</p>
+    <div class="text-right bg-img-block masabajo acomodarzap">
+        <img src="shoes_!.jpg" alt="Imagen 4" style="width: 130%;">
+    </div>
+    <div class="row mt-5 ubicar3 bg-img-block">
+        <div class="col-md-6 offset-md-3">
+            <form>
+                <div class="form-group ancho">
+                    <input type="text" class="form-control ancho" id="nombre" rows="7" placeholder="&#xf007; Nombre" style="font-family: 'Font Awesome 5 Free';" required>
+                </div>
+                <div class="form-group ancho masabajoc">
+                    <input type="email" class="form-control ancho" id="email" rows="5" placeholder="&#xf0e0; Email" style="font-family: 'Font Awesome 5 Free';" required>
+                </div>
+                <div class="form-group ancho masabajoc">
+                    <textarea class="form-control ancho" id="mensaje" rows="7" placeholder="&#xf0e5; Mensaje" style="font-family: 'Font Awesome 5 Free';" required></textarea>
+                </div>
+                <div class="form-group ancho masabajoc">
+                    <input type="tel" class="form-control ancho" id="telefono" placeholder="&#xf095; Teléfono" style="font-family: 'Font Awesome 5 Free';" required>
+                </div>
+                <div class="form-group ancho masabajoc">
+                    <input type="text" class="form-control ancho" id="asunto" placeholder="&#xf4d6; Asunto" style="font-family: 'Font Awesome 5 Free';" required>
+                </div>
+                <div class="form-group ancho masabajoc">
+                    <select class="form-control ancho" id="como_nos_encontraste" style="font-family: 'Font Awesome 5 Free';" required>
+                        <option value="" selected disabled>&#xf05a; ¿Cómo nos encontraste?</option>
+                        <option value="busqueda_google">&#xf1a0; Búsqueda en Google</option>
+                        <option value="redes_sociales">&#xf099; Redes Sociales</option>
+                        <option value="recomendacion_amigo">&#xf007; Recomendación de un amigo</option>
+                        <option value="sitio_web">&#xf0ac; Sitio web de la empresa</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary Lato-regular bg-botin text-white mg-10 bordebot pt-5 ubicarbotenv">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <div class="rectangulo-final"></div>
+    <p class="text-white acomodartextf letradelgada">©Escuela de danza. Todos los derechos reservados.</p>
+</div>
+</body>
+</html>
