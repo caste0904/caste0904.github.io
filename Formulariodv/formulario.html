@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="formulario.css">
+    <script type="text/javascript" src="formulario.js"></script>
+</head>
+<body>
+    <section class="container">
+        <div class="form-card">
+            <h1>Laboratorio<br>JavaScript</h1>
+            <table class="tabla">
+                <tr>
+                    <td><label for="nom1">Primer nombre:</label></td>
+                </tr>
+                <tr>
+                    <td><input class="text largo" type="text" id="nom1"></td>
+                </tr>
+                <tr>
+                    <td><label for="nom2">Segundo nombre:</label></td>
+                </tr>
+                <tr>
+                    <td><input class="text largo" type="text" id="nom2"></td>
+                </tr>
+                <tr>
+                    <td><label for="ap1">Primer apellido:</label></td>
+                </tr>
+                <tr>
+                    <td><input class="text largo" type="text" id="ap1"></td>
+                </tr>
+                <tr>
+                    <td><label for="ap2">Segundo apellido:</label></td>
+                </tr>
+                <tr>
+                    <td><input class="text largo" type="text" id="ap2"></td>
+                </tr>
+                <tr>
+                    <td><label for="dni">DNI:</label></td>
+                </tr>
+                <tr>
+                    <td><input class="text largo" type="text" id="dni"></td>
+                </tr>
+                <tr>
+                    <td><label for="fech">Fecha de nacimiento:</label></td>
+                </tr>
+                <tr>
+                    <td><input class="date largo" type="date" id="fech"></td>
+                </tr>
+                <tr>
+                    <td class="center"><input id="Procesar" type="button" value="Procesar" onclick="procesar()"></td>
+                </tr>
+            </table>
+            <h2>Resultado</h2>
+            <table class="tabla">
+                <tr>
+                    <td><label for="nomc">Nombre completo:</label></td>
+                </tr>
+                <tr>
+                    <td><input class="text largo" type="text" id="nomc" readonly></td>
+                </tr>
+                <tr>
+                    <td><label for="ultd">Último dígito del DNI:</label></td>
+                </tr>
+                <tr>
+                    <td><input class="text largo" type="text" id="ultd" readonly></td>
+                </tr>
+                <tr>
+                    <td><label for="edadact">Edad actual:</label></td>
+                </tr>
+                <tr>
+                    <td><input class="text largo" type="text" id="edadact" readonly></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
+
