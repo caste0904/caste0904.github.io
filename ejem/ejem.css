@@ -1,0 +1,189 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+    color: #3a241d !important;
+    text-align: center;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contenedor-imagenes.izquierda, .contenedor-imagenes.derecha {
+    background-color: #afafaf;
+    width: 15%;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+}
+
+.contenedor-imagenes.izquierda {
+    left: 0px;
+}
+
+.contenedor-imagenes.derecha {
+    right: 0px;
+}
+
+#centro {
+    background-color: #ffffff;
+    width: 900px;
+    height: 680px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-imagenes img {
+    width: 135px;
+    margin: -20px;
+}
+
+.texto1 {
+    font-size: 40px;
+    font-family: 'Verdana', sans-serif;
+}
+
+.plant-holder {
+    position: relative;
+    height: 13%;
+    left: -10px;
+}
+
+.plant {
+    position: absolute;
+    max-width: 150%;
+    max-height: 150%;
+    z-index: 2;
+}
+
+.rectangulo, .rectangulo2, .rectangulo3, .rectangulo4 {
+    background-color: rgb(176, 176, 176);
+    width: 680px;
+    height: 20px;
+}
+
+.rectangulo2 {
+    width: 720px;
+    height: 700px;
+    background-color: rgb(206, 205, 205);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.rectangulo3 {
+    width: 720px;
+    height: 20px;
+    background-color: rgb(104, 104, 104);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.circulo, .circulo2 {
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    background-color: #fffcfc;
+    border-radius: 20px;
+}
+
+#circulo1 {
+    top: 450px;
+    left: 420px;
+}
+
+.circulo2 {
+    height: 80px;
+}
+
+#circulo2 {
+    top: 500px;
+    left: 420px;
+}
+
+.jar-walls {
+    width: 720px;
+    height: 575px;
+    background: #d1e1df;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0.5%;
+    left: 20%;
+    opacity: 0.5;
+    z-index: 1;
+    top: 115px;
+    left: 380px;
+}
+
+.jar-top {
+    width: 50%;
+    height: 5%;
+    background: #d1e1df;
+    position: absolute;
+    bottom: 80.5%;
+    left: 25%;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.jar-bottom {
+    width: 50%;
+    height: 1%;
+    background: #d1e1df;
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    opacity: 0.7;
+}
+
+.dirt {
+    width: 60%;
+    height: 5%;
+    background: #3a241d;
+    position: absolute;
+    border-radius: 0 0 1rem 1rem;
+    bottom: 1%;
+    left: 20%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.jar-glossy-long {
+    width: 10%;
+    height: 30%;
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    bottom: 10%; /* Ajusta estos valores según sea necesario */
+    left: 10%;
+    border-radius: 50%;
+    transform: skewY(-15deg);
+    opacity: 0.8;
+}
+
+.jar-glossy-short {
+    width: 8%;
+    height: 10%;
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    bottom: 20%; /* Ajusta estos valores según sea necesario */
+    left: 30%;
+    border-radius: 50%;
+    transform: skewY(-15deg);
+    opacity: 0.6;
+}
+
+
